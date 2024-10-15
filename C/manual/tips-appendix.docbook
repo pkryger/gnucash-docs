@@ -23,7 +23,8 @@
 <appendix id="tips">
   <appendixinfo>
     <releaseinfo>
-      &appname; Version 2.6.20 + Finance::Quote Version 1.47, March 2018
+      &appname; Version 5.9 + Finance::Quote Version 1.63, October 2024
+<!-- Version 2.6.20 + Finance::Quote Version 1.47, March 2018 -->
 <!-- Version 2.6.11 + Finance::Quote Version 1.38, February 2016, FEll -->
 <!-- Version 2.4.11 + Finance::Quote Version 1.18, April 2013, FEll -->
 <!-- Version 1.0, December 2006 -->
@@ -39,6 +40,8 @@
 
   <sect1 id="fq-sources">
     <title>Finance::Quote Sources</title>
+    <para>Please also consult <link linkend='fq-deprecated-sources'>Deprecated Finance::Quote Sources</link> for a list of deprecated sources.
+    </para>
 
     <para>There are 3 types of sources of which the first - currency - is hardcoded and responsible to fetch
       ISO currencies. The other two can be selected in the security editor.
@@ -84,7 +87,7 @@
 
               <entry>
                 <para>End of 2017 the provider changed. Make sure, you updated F::Q to at least version 1.47 and follow
-                  the instructions at Alphavantage below.
+                  the instructions at AlphaVantage below.
                 </para>
               </entry>
             </row>
@@ -122,7 +125,7 @@
           <tbody valign='middle'>
             <row>
               <entry>
-                <para>Alphavantage, US
+                <para>AlphaVantage, US
                 </para>
               </entry>
 
@@ -164,27 +167,10 @@
               </entry>
 
               <entry>
-                <para><ulink url="https://www.aex.nl"/>
+                <para><ulink url="https://live.euronext.com"/>
                 </para>
 
                 <para>includes former sources AEX-<quote>Futures</quote> and -<quote>Options</quote>
-                </para>
-              </entry>
-            </row>
-
-            <row>
-              <entry>
-                <para>American International Assurance, HK
-                </para>
-              </entry>
-
-              <entry>
-                <para>aiahk
-                </para>
-              </entry>
-
-              <entry>
-                <para><ulink url="https://www.aia.com.hk"/>
                 </para>
               </entry>
             </row>
@@ -218,7 +204,7 @@
               </entry>
 
               <entry>
-                <para><ulink url="https://www.ase.gr"/>
+                <para><ulink url="https://www.athexgroup.gr"/>
                 </para>
               </entry>
             </row>
@@ -246,34 +232,51 @@
 
             <row>
               <entry>
-                <para>BAMOSZ funds, HU
+                <para>Bloomberg
                 </para>
               </entry>
 
               <entry>
-                <para>bamosz
+                <para>bloomberg
                 </para>
               </entry>
 
               <entry>
-                <para><ulink url="https://www.bamosz.hu"/>
+                <para><ulink url="https://www.bloomberg.com"/>
                 </para>
               </entry>
             </row>
 
             <row>
               <entry>
-                <para>BMO NesbittBurns, CA
+                <para>Borsa Italiana, IT
                 </para>
               </entry>
 
               <entry>
-                <para>bmonesbittburns
+                <para>borsa_italiana
                 </para>
               </entry>
 
               <entry>
-                <para><ulink url="https://bmonesbittburns.com"/>
+                <para><ulink url="https://www.borsaitaliana.it"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>BSE India (formerly known as Bombay Stock Exchange Ltd.), IN
+                </para>
+              </entry>
+
+              <entry>
+                <para>bseindia
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.bseindia.com"/>
                 </para>
               </entry>
             </row>
@@ -285,7 +288,7 @@
               </entry>
 
               <entry>
-                <para>bsero
+                <para>bvb or tradeville
                 </para>
               </entry>
 
@@ -297,71 +300,34 @@
 
             <row>
               <entry>
-                <para>Budapest Stock Exchange (BET), ex-BUX, HU
+                <para>comdirect, DE
                 </para>
               </entry>
 
               <entry>
-                <para>bse or bet
+                <para>comdirect
                 </para>
               </entry>
 
               <entry>
-                <para><ulink url="https://www.bet.hu"/>
-                </para>
-              </entry>
-            </row>
-
-            <row>
-              <entry>
-                <para>Citywire Funds, GB
-                </para>
-              </entry>
-
-              <entry>
-                <para>citywire
-                </para>
-              </entry>
-
-              <entry>
-                <para><ulink url="https://citywire.co.uk"/>
+                <para><ulink url="https://www.comdirect.de"/>
                 </para>
               </entry>
             </row>
 
             <row>
               <entry>
-                <para>Colombo Stock Exchange, LK
+                <para>Consors Bank, DE
                 </para>
               </entry>
 
               <entry>
-                <para>cse
+                <para>consorsbank
                 </para>
               </entry>
 
               <entry>
-                <para><ulink url="https://www.cse.lk"/>
-                </para>
-              </entry>
-            </row>
-
-            <row>
-              <entry>
-                <para>Cominvest Asset Management, ex-Adig, DE
-                </para>
-              </entry>
-
-              <entry>
-                <para>cominvest
-                </para>
-              </entry>
-
-              <entry>
-                <para><ulink url="https://www.cominvest-am.de"/>
-                </para>
-
-                <para>Obsolete, update: <ulink url="https://eggert.org/software/Comdirect.pm"/>
+                <para><ulink url="https://www.consorsbank.de"/>
                 </para>
               </entry>
             </row>
@@ -402,74 +368,6 @@
 
             <row>
               <entry>
-                <para>Equinox Unit Trusts, ZA
-                </para>
-              </entry>
-
-              <entry>
-                <para>za_unittrusts
-                </para>
-              </entry>
-
-              <entry>
-                <para><ulink url="https://www.equinox.co.za"/>
-                </para>
-              </entry>
-            </row>
-
-            <row>
-              <entry>
-                <para>Fidelity Investments, US
-                </para>
-              </entry>
-
-              <entry>
-                <para>fidelity_direct
-                </para>
-              </entry>
-
-              <entry>
-                <para><ulink url="https://www.fidelity.com"/>
-                </para>
-              </entry>
-            </row>
-
-            <row>
-              <entry>
-                <para>Fidelity Fixed, US
-                </para>
-              </entry>
-
-              <entry>
-                <para>fidelityfixed
-                </para>
-              </entry>
-
-              <entry>
-                <para><ulink url="https://www.fidelity.com/fixed-income-bonds/overview"/>
-                </para>
-              </entry>
-            </row>
-
-            <row>
-              <entry>
-                <para>Finance Canada
-                </para>
-              </entry>
-
-              <entry>
-                <para>financecanada
-                </para>
-              </entry>
-
-              <entry>
-                <para><ulink url="https://finance.canada.com"/>
-                </para>
-              </entry>
-            </row>
-
-            <row>
-              <entry>
                 <para>Financial Times Funds service, GB
                 </para>
               </entry>
@@ -504,47 +402,24 @@
 
             <row>
               <entry>
-                <para>First Trust Portfolios, US
+                <para>FondsWeb, DE
                 </para>
               </entry>
 
               <entry>
-                <para>ftportfolios_direct
+                <para>fondsweb
                 </para>
               </entry>
 
               <entry>
-                <para><ulink url="https://www.ftportfolios.com"/>
-                </para>
-              </entry>
-            </row>
-
-            <row>
-              <entry>
-                <para>Fund Library, CA
-                </para>
-              </entry>
-
-              <entry>
-                <para>fundlibrary
-                </para>
-              </entry>
-
-              <entry>
-                <para><ulink url="https://www.fundlibrary.com"/>
-                </para>
-
-                <para>This module uses an id that represents the mutual fund on
-                  <ulink url="https://www.fundlibrary.com"/>. There is no easy way of fetching the
-                  id except to jump onto the fundlibrary website, look up the fund and view the url
-                  for clues to its id number.
+                <para><ulink url="https://www.fondsweb.com"/>
                 </para>
               </entry>
             </row>
 
             <row>
               <entry>
-                <para>GoldMoney spot rates, JE
+                <para>GoldMoney precious metals
                 </para>
               </entry>
 
@@ -561,34 +436,83 @@
 
             <row>
               <entry>
-                <para>HElsinki stock eXchange, FI
+                <para>Google Web, US Stocks
                 </para>
               </entry>
 
               <entry>
-                <para>hex
+                <para>googleweb or bats
                 </para>
               </entry>
 
               <entry>
-                <para><ulink url="https://www.hex.com"/>
+                <para><ulink url="https://www.google.com/finance"/>
                 </para>
               </entry>
             </row>
 
             <row>
               <entry>
-                <para>Man Investments, AU
+                <para>IEX (Investors Exchange), US
                 </para>
               </entry>
 
               <entry>
-                <para>maninv
+                <para>iexcloud
                 </para>
               </entry>
 
               <entry>
-                <para><ulink url="https://www.maninvestments.com.au"/>
+                <para>You need to
+                  <orderedlist spacing="compact">
+                    <listitem>
+                      <para>register at <ulink url="https://iexcloud.io"/> and
+                        <important>
+                          <para>Watch the restrictions of the Free API Key in their pricing info!
+                          </para>
+                        </important>
+                      </para>
+                    </listitem>
+
+                    <listitem>
+                      <para>Export the key as <envar>IEXCLOUD_API_KEY</envar> environment variable before starting &appname;.
+                      </para>
+                    </listitem>
+                  </orderedlist>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>MarketWatch
+                </para>
+              </entry>
+
+              <entry>
+                <para>marketwatch
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.marketwatch.com"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>Morningstar, CH
+                </para>
+              </entry>
+
+              <entry>
+                <para>morningstarch
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.morningstar.ch"/>
                 </para>
               </entry>
             </row>
@@ -600,7 +524,7 @@
               </entry>
 
               <entry>
-                <para>mstaruk
+                <para>morningstaruk or mstaruk
                 </para>
               </entry>
 
@@ -623,23 +547,6 @@
 
               <entry>
                 <para><ulink url="https://www.morningstar.co.jp"/>
-                </para>
-              </entry>
-            </row>
-
-            <row>
-              <entry>
-                <para>Morningstar, SE
-                </para>
-              </entry>
-
-              <entry>
-                <para>morningstar
-                </para>
-              </entry>
-
-              <entry>
-                <para><ulink url="https://www.morningstar.se"/>
                 </para>
               </entry>
             </row>
@@ -680,6 +587,40 @@
 
             <row>
               <entry>
+                <para>NSE (National Stock Exchange), IN
+                </para>
+              </entry>
+
+              <entry>
+                <para>nseindia
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.nseindia.com"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>OnVista, DE
+                </para>
+              </entry>
+
+              <entry>
+                <para>onvista
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.onvista.de"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
                 <para>Paris Stock Exchange/Boursorama, FR
                 </para>
               </entry>
@@ -697,68 +638,51 @@
 
             <row>
               <entry>
-                <para>Paris Stock Exchange/LeRevenu, FR
+                <para>S-Investor, DE
                 </para>
               </entry>
 
               <entry>
-                <para>lerevenu
+                <para>sinvestor
                 </para>
               </entry>
 
               <entry>
-                <para><ulink url="https://bourse.lerevenu.com"/>
-                </para>
-              </entry>
-            </row>
-
-            <row>
-              <entry>
-                <para>Platinum Asset Management, AU
-                </para>
-              </entry>
-
-              <entry>
-                <para>platinum
-                </para>
-              </entry>
-
-              <entry>
-                <para><ulink url="https://www.platinum.com.au"/>
+                <para><ulink url="https://web.s-investor.de"/>
                 </para>
               </entry>
             </row>
 
             <row>
               <entry>
-                <para>SIX Swiss Exchange Funds, CH
+                <para>Sharenet, ZA
                 </para>
               </entry>
 
               <entry>
-                <para>sixfunds
+                <para>za
                 </para>
               </entry>
 
               <entry>
-                <para><ulink url="https://www.six-swiss-exchange.com"/>
+                <para><ulink url="https://www.sharenet.co.za"/>
                 </para>
               </entry>
             </row>
 
             <row>
               <entry>
-                <para>SIX Swiss Exchange Shares, CH
+                <para>SIX Swiss Exchange, CH
                 </para>
               </entry>
 
               <entry>
-                <para>sixshares
+                <para>six
                 </para>
               </entry>
 
               <entry>
-                <para><ulink url="https://www.six-swiss-exchange.com"/>
+                <para><ulink url="https://www.six-group.com"/>
                 </para>
               </entry>
             </row>
@@ -786,68 +710,83 @@
 
             <row>
               <entry>
-                <para>Sharenet, ZA
+                <para>StockData
                 </para>
               </entry>
 
               <entry>
-                <para>za
+                <para>stockdata
                 </para>
               </entry>
 
               <entry>
-                <para><ulink url="https://www.sharenet.co.za"/>
-                </para>
-              </entry>
-            </row>
+                <para>You need to
+                  <orderedlist spacing="compact">
+                    <listitem>
+                      <para>register at <ulink url="https://www.stockdata.org"/> and
+                        <important>
+                          <para>Watch the restrictions of the Free API Key in their pricing info!
+                          </para>
+                        </important>
+                      </para>
+                    </listitem>
 
-            <row>
-              <entry>
-                <para>StockHouse Canada, CA
-                </para>
-              </entry>
-
-              <entry>
-                <para>stockhousecanada_fund
-                </para>
-              </entry>
-
-              <entry>
-                <para><ulink url="https://www.stockhouse.ca"/>
-                </para>
-              </entry>
-            </row>
-
-            <row>
-              <entry>
-                <para>TD Waterhouse Funds, CA
-                </para>
-              </entry>
-
-              <entry>
-                <para>tdwaterhouse
-                </para>
-              </entry>
-
-              <entry>
-                <para><ulink url="https://www.tdassetmanagement.com"/>
+                    <listitem>
+                      <para>Export the key as <envar>STOCKDATA_API_KEY</envar> environment variable before starting &appname;.
+                      </para>
+                    </listitem>
+                  </orderedlist>
                 </para>
               </entry>
             </row>
 
             <row>
               <entry>
-                <para>TD Efunds, CA
+                <para>Stooq, PL
                 </para>
               </entry>
 
               <entry>
-                <para>tdefunds
+                <para>stooq
                 </para>
               </entry>
 
               <entry>
-                <para><ulink url="https://www.tdwaterhouse.ca"/>
+                <para><ulink url="https://stooq.com"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>T. Rowe Price, US
+                </para>
+              </entry>
+
+              <entry>
+                <para>troweprice or troweprice_direct
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.troweprice.com"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>Tesouro Direto bonds, BR
+                </para>
+              </entry>
+
+              <entry>
+                <para>torouro_direto
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.tesourodireto.com.br"/>
                 </para>
               </entry>
             </row>
@@ -876,63 +815,78 @@
               </entry>
 
               <entry>
-                <para>tsx
+                <para>tsx or tmx
                 </para>
               </entry>
 
               <entry>
-                <para><ulink url="https://www.TMXmoney.com"/>
-                </para>
-              </entry>
-            </row>
-
-            <row>
-              <entry>
-                <para>T. Rowe Price, US
-                </para>
-              </entry>
-
-              <entry>
-                <para>troweprice_direct
-                </para>
-              </entry>
-
-              <entry>
-                <para><ulink url="https://www.troweprice.com"/>
+                <para><ulink url="https://money.tmx.com"/>
                 </para>
               </entry>
             </row>
 
             <row>
               <entry>
-                <para>Trustnet via tnetuk.pm, GB
+                <para>Tradegate, DE
                 </para>
               </entry>
 
               <entry>
-                <para>tnetuk
+                <para>tradegate
                 </para>
               </entry>
 
               <entry>
-                <para><ulink url="https://www.trustnet.com"/>
+                <para>Part of <ulink url="https://web.s-investor.de"/>
                 </para>
               </entry>
             </row>
 
             <row>
               <entry>
-                <para>Trustnet via trustnet.pm, GB
+                <para>Treasury Direct bonds, US
                 </para>
               </entry>
 
               <entry>
-                <para>trustnet
+                <para>treasurydirect
                 </para>
               </entry>
 
               <entry>
-                <para><ulink url="https://www.trustnet.com"/>
+                <para><ulink url="https://www.treasurydirect.gov"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>Twelve Data
+                </para>
+              </entry>
+
+              <entry>
+                <para>twelvedata
+                </para>
+              </entry>
+
+              <entry>
+                <para>You need to
+                  <orderedlist spacing="compact">
+                    <listitem>
+                      <para>register at <ulink url="https://twelvedata.com"/> and
+                        <important>
+                          <para>Watch the restrictions of the Free API Key in their pricing info!
+                          </para>
+                        </important>
+                      </para>
+                    </listitem>
+
+                    <listitem>
+                      <para>Export the key as <envar>TWELVEDATA_API_KEY</envar> environment variable before starting &appname;.
+                      </para>
+                    </listitem>
+                  </orderedlist>
                 </para>
               </entry>
             </row>
@@ -956,23 +910,6 @@
 
             <row>
               <entry>
-                <para>US Treasury Bonds, US
-                </para>
-              </entry>
-
-              <entry>
-                <para>usfedbonds
-                </para>
-              </entry>
-
-              <entry>
-                <para><ulink url="https://www.publicdebt.treas.gov"/>
-                </para>
-              </entry>
-            </row>
-
-            <row>
-              <entry>
                 <para>US Govt. Thrift Savings Plan, US
                 </para>
               </entry>
@@ -990,81 +927,17 @@
 
             <row>
               <entry>
-                <para>Vanguard, US
+                <para>XETRA, DE
                 </para>
               </entry>
 
               <entry>
-                <para>vanguard
+                <para>xetra
                 </para>
               </entry>
 
               <entry>
-                <para>part of AlphaVantage
-                </para>
-              </entry>
-            </row>
-
-            <row>
-              <entry>
-                <para>VWD, DE (unmaintained)
-                </para>
-              </entry>
-
-              <entry>
-                <para>vwd
-                </para>
-              </entry>
-
-              <entry>
-                <para>See <ulink url="&url-mail-ar;gnucash-user/2008-February/023686.html"/>
-                </para>
-              </entry>
-            </row>
-
-            <row>
-              <entry>
-                <para>Yahoo USA
-                </para>
-
-                <para>Yahoo Asia
-                </para>
-
-                <para>Yahoo Australia
-                </para>
-
-                <para>Yahoo Brasil
-                </para>
-
-                <para>Yahoo Europe
-                </para>
-
-                <para>Yahoo New Zealand
-                </para>
-              </entry>
-
-              <entry>
-                <para>yahoo
-                </para>
-
-                <para>yahoo_asia
-                </para>
-
-                <para>yahoo_australia
-                </para>
-
-                <para>yahoo_brasil
-                </para>
-
-                <para>yahoo_europe
-                </para>
-
-                <para>yahoo_nz
-                </para>
-              </entry>
-
-              <entry>
-                <para>CSV interface since 2017-11-01 shut off
+                <para>Part of <ulink url="https://web.s-investor.de"/>
                 </para>
               </entry>
             </row>
@@ -1081,44 +954,62 @@
               </entry>
 
               <entry>
-                <para><ulink url="&url-yh-fin;"/> through "JavaScript Object Notation"
+                <para><ulink url="&url-yh-fin;"/> through "JavaScript Object Notation" (query1/v7)
                 </para>
               </entry>
             </row>
 
             <row>
               <entry>
-                <para>Yahoo as YQL, US
+                <para>Yahoo, US
                 </para>
               </entry>
 
               <entry>
-                <para>yahoo_yql
+                <para>yahooweb
                 </para>
               </entry>
 
               <entry>
-                <para><ulink url="&url-yh-fin;"/> through "Yahoo Query Language"
+                <para><ulink url="&url-yh-fin;"/> through "JavaScript Object Notation" (query2/v1)
                 </para>
               </entry>
             </row>
 
             <row>
               <entry>
-                <para>Zuerich Investments (replaced)
+                <para>YH Finance (FincanceAPI)
                 </para>
               </entry>
 
               <entry>
-                <para>zifunds
+                <para>financeapi
                 </para>
               </entry>
 
               <entry>
-                <para>Zürich Invest has been purchased by Deutsche Bank and integrated into DWS.
+                <para>You need to
+                  <orderedlist spacing="compact">
+                    <listitem>
+                      <para>register at <ulink url="https://financeapi.net"/> and
+                        <important>
+                          <para>Watch the restrictions of the Free API Key in their pricing info!
+                          </para>
+                        </important>
+                      </para>
+                    </listitem>
+
+                    <listitem>
+                      <para>store the key which you got there in &mc.ed.pref; <xref linkend="prefs-online-quotes" />.
+                      </para>
+                    </listitem>
+                  </orderedlist>
+                </para>
+                <para>
                 </para>
               </entry>
             </row>
+
           </tbody>
         </tgroup>
       </table>
@@ -1142,14 +1033,7 @@
               </entry>
             </row>
           </thead>
-
           <tbody>
-            <row>
-              <entry>
-                Asia disappeared with Yahoo
-              </entry>
-            </row>
-
             <row>
               <entry>
                 Australia (ASX, ...)
@@ -1158,19 +1042,7 @@
 
             <row>
               <entry>
-                Brasil disappeared with Yahoo
-              </entry>
-            </row>
-
-            <row>
-              <entry>
-                Canada (Alphavantage, TSX, ...)
-              </entry>
-            </row>
-
-            <row>
-              <entry>
-                Canada Mutual (Fund Library, StockHouse, ...)
+                Canada (AlphaVantage, TMX, ...)
               </entry>
             </row>
 
@@ -1182,19 +1054,19 @@
 
             <row>
               <entry>
-                Europe (asegr, bsero, hex ...)
+                Europe (ASEGR, Bourso, BVB, Consorsbank, Sinvestor, Stooq, Tradegate, XETRA, ...)
               </entry>
             </row>
 
             <row>
               <entry>
-                Greece (ASE, ...)
+                France (Bourso, ...)
               </entry>
             </row>
 
             <row>
               <entry>
-                Hungary (Bamosz, BET, ...)
+                Greece (ASEGR, ...)
               </entry>
             </row>
 
@@ -1206,43 +1078,25 @@
 
             <row>
               <entry>
-                Fidelity (Fidelity, ...)
+                Nasdaq (AlphaVantage, FinanceAPI, Fool, GoogleWeb, IEXCloud, MarketWatch, StockData, YahooJSON, ...)
               </entry>
             </row>
 
             <row>
               <entry>
-                Finland (HEX, ...)
+                NYSE (AlphaVantage, FinanceAPI, Fool, GoogleWeb, IEXCloud, MarketWatch, StockData, YahooJSON, ...)
               </entry>
             </row>
 
             <row>
               <entry>
-                First Trust (First Trust, ...)
+                Poland (Stooq, ...)
               </entry>
             </row>
 
             <row>
               <entry>
-                France (Boursorama, LeRevenu, ...)
-              </entry>
-            </row>
-
-            <row>
-              <entry>
-                Nasdaq (Alphavantage, Fool, ...)
-              </entry>
-            </row>
-
-            <row>
-              <entry>
-                New Zealand (NZX, ...)
-              </entry>
-            </row>
-
-            <row>
-              <entry>
-                NYSE (Alphavantage, Fool, ...)
+                Romania (BVB, ...)
               </entry>
             </row>
 
@@ -1254,31 +1108,19 @@
 
             <row>
               <entry>
-                Romania (bsero, ...)
-              </entry>
-            </row>
-
-            <row>
-              <entry>
                 T. Rowe Price
               </entry>
             </row>
 
             <row>
               <entry>
-                U.K. Funds (citywire, FTfunds, MStar, tnetuk, ...)
+                U.K. Funds (FTfunds, MorningStarUK, ...)
               </entry>
             </row>
 
             <row>
               <entry>
-                U.K. Unit Trusts (trustnet, ...)
-              </entry>
-            </row>
-
-            <row>
-              <entry>
-                USA (Alphavantage, Fool ...)
+                USA (AlphaVantage, FinanceAPI, Fool, IEXCloud, YahooJSON, ...)
               </entry>
             </row>
           </tbody>
@@ -1286,7 +1128,7 @@
       </table>
 
       <para>Sources: src/engine/gnc-commodity.c:gnc_quote_source (commit c0fd3b3, which was adjusted for
-        Finance::Quote 1.47), <ulink url="&url-wiki;">&appname;-Wiki</ulink>,
+        Finance::Quote 1.63), <ulink url="&url-wiki;">&appname;-Wiki</ulink>,
         <ulink url="&url-bug-start;page.cgi?id=browse.html&amp;product=GnuCash">bugzilla</ulink>,
         <ulink url="&url-wiki-ml;#Mailing_List_Archives">mailing list archive</ulink>.
       </para>
@@ -6456,5 +6298,680 @@ bogus_symbol2,price2,date2
     <para>Source: Comments in
       <ulink url="https://rt.cpan.org/Ticket/Attachment/1121440/589997/Tiaacref.pm.zip"/>
     </para>
+  </sect1>
+  <sect1 id="fq-deprecated-sources">
+    <title>Deprecated Finance::Quote Sources</title>
+
+    <para>This section provides information about sources that used to be provided by <application>Finance::Quote</application>
+      but have already been removed or have been not functioning correctly.
+    </para>
+
+    <sect2 id="fq-deprecated-sources-single">
+      <title>Deprecated Quote Sources - Individual sources</title>
+
+      <table frame="topbot" id="gnc-tbl-fq-deprecated-individual-source">
+        <title>Deprecated individual sources for quotes</title>
+
+        <tgroup cols="3">
+          <thead>
+            <row>
+              <entry>
+                <para>&appname; Name
+                </para>
+              </entry>
+
+              <entry>
+                <para>Finance::Quote Name
+                </para>
+              </entry>
+
+              <entry>
+                <para>URL, Notes
+                </para>
+              </entry>
+            </row>
+          </thead>
+
+          <tbody valign='middle'>
+            <row>
+              <entry>
+                <para>American International Assurance, HK
+                </para>
+              </entry>
+
+              <entry>
+                <para>aiahk
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.aia.com.hk"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>BAMOSZ funds, HU
+                </para>
+              </entry>
+
+              <entry>
+                <para>bamosz
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.bamosz.hu"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>BMO NesbittBurns, CA
+                </para>
+              </entry>
+
+              <entry>
+                <para>bmonesbittburns
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://bmonesbittburns.com"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>Budapest Stock Exchange (BET), ex-BUX, HU
+                </para>
+              </entry>
+
+              <entry>
+                <para>bse or bet
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.bet.hu"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>Citywire Funds, GB
+                </para>
+              </entry>
+
+              <entry>
+                <para>citywire
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://citywire.co.uk"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>Colombo Stock Exchange, LK
+                </para>
+              </entry>
+
+              <entry>
+                <para>cse
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.cse.lk"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>Cominvest Asset Management, ex-Adig, DE
+                </para>
+              </entry>
+
+              <entry>
+                <para>cominvest
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.cominvest-am.de"/>
+                </para>
+
+                <para>Obsolete, update: <ulink url="https://eggert.org/software/Comdirect.pm"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>Equinox Unit Trusts, ZA
+                </para>
+              </entry>
+
+              <entry>
+                <para>za_unittrusts
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.equinox.co.za"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>Fidelity Investments, US
+                </para>
+              </entry>
+
+              <entry>
+                <para>fidelity_direct
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.fidelity.com"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>Fidelity Fixed, US
+                </para>
+              </entry>
+
+              <entry>
+                <para>fidelityfixed
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.fidelity.com/fixed-income-bonds/overview"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>Finance Canada
+                </para>
+              </entry>
+
+              <entry>
+                <para>financecanada
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://finance.canada.com"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>First Trust Portfolios, US
+                </para>
+              </entry>
+
+              <entry>
+                <para>ftportfolios_direct
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.ftportfolios.com"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>Fund Library, CA
+                </para>
+              </entry>
+
+              <entry>
+                <para>fundlibrary
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.fundlibrary.com"/>
+                </para>
+
+                <para>This module uses an id that represents the mutual fund on
+                  <ulink url="https://www.fundlibrary.com"/>. There is no easy way of fetching the
+                  id except to jump onto the fundlibrary website, look up the fund and view the url
+                  for clues to its id number.
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>HElsinki stock eXchange, FI
+                </para>
+              </entry>
+
+              <entry>
+                <para>hex
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.hex.com"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>Man Investments, AU
+                </para>
+              </entry>
+
+              <entry>
+                <para>maninv
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.maninvestments.com.au"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>Morningstar, SE
+                </para>
+              </entry>
+
+              <entry>
+                <para>morningstar
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.morningstar.se"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>Paris Stock Exchange/LeRevenu, FR
+                </para>
+              </entry>
+
+              <entry>
+                <para>lerevenu
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://bourse.lerevenu.com"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>Platinum Asset Management, AU
+                </para>
+              </entry>
+
+              <entry>
+                <para>platinum
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.platinum.com.au"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>SIX Swiss Exchange Funds, CH
+                </para>
+              </entry>
+
+              <entry>
+                <para>sixfunds
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.six-swiss-exchange.com"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>SIX Swiss Exchange Shares, CH
+                </para>
+              </entry>
+
+              <entry>
+                <para>sixshares
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.six-swiss-exchange.com"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>StockHouse Canada, CA
+                </para>
+              </entry>
+
+              <entry>
+                <para>stockhousecanada_fund
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.stockhouse.ca"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>TD Waterhouse Funds, CA
+                </para>
+              </entry>
+
+              <entry>
+                <para>tdwaterhouse
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.tdassetmanagement.com"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>TD Efunds, CA
+                </para>
+              </entry>
+
+              <entry>
+                <para>tdefunds
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.tdwaterhouse.ca"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>Trustnet via tnetuk.pm, GB
+                </para>
+              </entry>
+
+              <entry>
+                <para>tnetuk
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.trustnet.com"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>Trustnet via trustnet.pm, GB
+                </para>
+              </entry>
+
+              <entry>
+                <para>trustnet
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.trustnet.com"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>US Treasury Bonds, US
+                </para>
+              </entry>
+
+              <entry>
+                <para>usfedbonds
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.publicdebt.treas.gov"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>Vanguard, US
+                </para>
+              </entry>
+
+              <entry>
+                <para>vanguard
+                </para>
+              </entry>
+
+              <entry>
+                <para>part of AlphaVantage
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>VWD, DE (unmaintained)
+                </para>
+              </entry>
+
+              <entry>
+                <para>vwd
+                </para>
+              </entry>
+
+              <entry>
+                <para>See <ulink url="&url-mail-ar;gnucash-user/2008-February/023686.html"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>Yahoo USA
+                </para>
+
+                <para>Yahoo Asia
+                </para>
+
+                <para>Yahoo Australia
+                </para>
+
+                <para>Yahoo Brasil
+                </para>
+
+                <para>Yahoo Europe
+                </para>
+
+                <para>Yahoo New Zealand
+                </para>
+              </entry>
+
+              <entry>
+                <para>yahoo
+                </para>
+
+                <para>yahoo_asia
+                </para>
+
+                <para>yahoo_australia
+                </para>
+
+                <para>yahoo_brasil
+                </para>
+
+                <para>yahoo_europe
+                </para>
+
+                <para>yahoo_nz
+                </para>
+              </entry>
+
+              <entry>
+                <para>CSV interface since 2017-11-01 shut off
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>Yahoo as YQL, US
+                </para>
+              </entry>
+
+              <entry>
+                <para>yahoo_yql
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="&url-yh-fin;"/> through "Yahoo Query Language"
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                <para>Zuerich Investments (replaced)
+                </para>
+              </entry>
+
+              <entry>
+                <para>zifunds
+                </para>
+              </entry>
+
+              <entry>
+                <para>Zürich Invest has been purchased by Deutsche Bank and integrated into DWS.
+                </para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </sect2>
+
+    <sect2 id="fq-deprecated-sources-multiple">
+      <title>Deprecated Finance::Quote Sources - Multiple sources</title>
+
+      <table frame="topbot" id="gnc-tbl-fq-deprecated-multiple-source">
+        <title>Deprecated Multiple sources for quotes</title>
+
+        <tgroup cols="1">
+          <thead>
+            <row>
+              <entry>
+                <para>Name
+                </para>
+              </entry>
+            </row>
+          </thead>
+
+          <tbody>
+            <row>
+              <entry>
+                Asia disappeared with Yahoo
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                Brasil disappeared with Yahoo
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                Fidelity (Fidelity, ...)
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                Finland (HEX, ...)
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                First Trust (First Trust, ...)
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                Hungary (Bamosz, BET, ...)
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                New Zealand (NZX, ...)
+              </entry>
+            </row>
+
+            <row>
+              <entry>
+                U.K. Unit Trusts (trustnet, ...)
+              </entry>
+            </row>
+
+          </tbody>
+        </tgroup>
+      </table>
+
+    </sect2>
   </sect1>
 </appendix>
