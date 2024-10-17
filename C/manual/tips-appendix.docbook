@@ -300,6 +300,23 @@
 
             <row>
               <entry>
+                <para>Colombo Stock Exchange, LK
+                </para>
+              </entry>
+
+              <entry>
+                <para>cse
+                </para>
+              </entry>
+
+              <entry>
+                <para><ulink url="https://www.cse.lk"/>
+                </para>
+              </entry>
+            </row>
+
+            <row>
+              <entry>
                 <para>comdirect, DE
                 </para>
               </entry>
@@ -6414,23 +6431,6 @@ bogus_symbol2,price2,date2
 
               <entry>
                 <para><ulink url="https://citywire.co.uk"/>
-                </para>
-              </entry>
-            </row>
-
-            <row>
-              <entry>
-                <para>Colombo Stock Exchange, LK
-                </para>
-              </entry>
-
-              <entry>
-                <para>cse
-                </para>
-              </entry>
-
-              <entry>
-                <para><ulink url="https://www.cse.lk"/>
                 </para>
               </entry>
             </row>
