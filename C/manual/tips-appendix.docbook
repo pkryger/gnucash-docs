@@ -40,7 +40,7 @@
 
   <sect1 id="fq-sources">
     <title>Finance::Quote Sources</title>
-    <para>Please also consult <link linkend='fq-deprecated-sources'>Deprecated Finance::Quote Sources</link> for a list of deprecated sources.
+    <para>Please also consult <link linkend='fq-obsolete-sources'>Obsolete Finance::Quote Sources</link> for a list of obsolete sources.
     </para>
 
     <para>There are 3 types of sources of which the first - currency - is hardcoded and responsible to fetch
@@ -6316,18 +6316,18 @@ bogus_symbol2,price2,date2
       <ulink url="https://rt.cpan.org/Ticket/Attachment/1121440/589997/Tiaacref.pm.zip"/>
     </para>
   </sect1>
-  <sect1 id="fq-deprecated-sources">
-    <title>Deprecated Finance::Quote Sources</title>
+  <sect1 id="fq-obsolete-sources">
+    <title>Obsolete Finance::Quote Sources</title>
 
     <para>This section provides information about sources that used to be provided by <application>Finance::Quote</application>
       but have already been removed or have been not functioning correctly.
     </para>
 
-    <sect2 id="fq-deprecated-sources-single">
-      <title>Deprecated Quote Sources - Individual sources</title>
+    <sect2 id="fq-obsolete-sources-single">
+      <title>Obsolete Quote Sources - Individual sources</title>
 
-      <table frame="topbot" id="gnc-tbl-fq-deprecated-individual-source">
-        <title>Deprecated individual sources for quotes</title>
+      <table frame="topbot" id="gnc-tbl-fq-obsolete-individual-source">
+        <title>Obsolete individual sources for quotes</title>
 
         <tgroup cols="3">
           <thead>
@@ -6903,11 +6903,11 @@ bogus_symbol2,price2,date2
       </table>
     </sect2>
 
-    <sect2 id="fq-deprecated-sources-multiple">
-      <title>Deprecated Finance::Quote Sources - Multiple sources</title>
+    <sect2 id="fq-obsolete-sources-multiple">
+      <title>Obsolete Finance::Quote Sources - Multiple sources</title>
 
-      <table frame="topbot" id="gnc-tbl-fq-deprecated-multiple-source">
-        <title>Deprecated Multiple sources for quotes</title>
+      <table frame="topbot" id="gnc-tbl-fq-obsolete-multiple-source">
+        <title>Obsolete Multiple sources for quotes</title>
 
         <tgroup cols="1">
           <thead>
