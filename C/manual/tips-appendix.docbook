@@ -152,23 +152,24 @@
                 </entry>
 
                 <entry>
-                  <para>You need to
-                    <orderedlist spacing="compact">
-                      <listitem>
-                        <para>register at <ulink url="&url-av;"/> and
+                  <important>
+                    <title>API Key Required</title>
+                    <procedure>
+                      <step>
+                        <para>Register at <ulink url="&url-av;"/> and
                           <important>
                             <para>Watch the restrictions of the Free API Key in their FAQ!
                             </para>
                           </important>
                         </para>
-                      </listitem>
+                      </step>
 
-                      <listitem>
-                        <para>store the key which you got there in &mc.ed.pref; <xref linkend="prefs-online-quotes" />.
+                      <step>
+                        <para>Store the key which you got there in &mc.ed.pref; <xref linkend="prefs-online-quotes" />.
                         </para>
-                      </listitem>
-                    </orderedlist>
-                  </para>
+                      </step>
+                    </procedure>
+                  </important>
                 </entry>
               </row>
 
@@ -497,23 +498,24 @@
                 </entry>
 
                 <entry>
-                  <para>You need to
-                    <orderedlist spacing="compact">
-                      <listitem>
-                        <para>register at <ulink url="https://iexcloud.io"/> and
+                  <important>
+                    <title>API Key Required</title>
+                    <procedure>
+                      <step>
+                        <para>Register at <ulink url="https://iexcloud.io"/> and
                           <important>
                             <para>Watch the restrictions of the Free API Key in their pricing info!
                             </para>
                           </important>
                         </para>
-                      </listitem>
+                      </step>
 
-                      <listitem>
+                      <step>
                         <para>Export the key as <envar>IEXCLOUD_API_KEY</envar> environment variable before starting &appname;.
                         </para>
-                      </listitem>
-                    </orderedlist>
-                  </para>
+                      </step>
+                    </procedure>
+                  </important>
                 </entry>
               </row>
 
@@ -754,23 +756,24 @@
                 </entry>
 
                 <entry>
-                  <para>You need to
-                    <orderedlist spacing="compact">
-                      <listitem>
-                        <para>register at <ulink url="https://www.stockdata.org"/> and
+                  <important>
+                    <title>API Key Required</title>
+                    <procedure>
+                      <step>
+                        <para>Register at <ulink url="https://www.stockdata.org"/> and
                           <important>
                             <para>Watch the restrictions of the Free API Key in their pricing info!
                             </para>
                           </important>
                         </para>
-                      </listitem>
+                      </step>
 
-                      <listitem>
+                      <step>
                         <para>Export the key as <envar>STOCKDATA_API_KEY</envar> environment variable before starting &appname;.
                         </para>
-                      </listitem>
-                    </orderedlist>
-                  </para>
+                      </step>
+                    </procedure>
+                  </important>
                 </entry>
               </row>
 
@@ -905,23 +908,24 @@
                 </entry>
 
                 <entry>
-                  <para>You need to
-                    <orderedlist spacing="compact">
-                      <listitem>
-                        <para>register at <ulink url="https://twelvedata.com"/> and
+                  <important>
+                    <title>API Key Required</title>
+                    <procedure>
+                      <step>
+                        <para>Register at <ulink url="https://twelvedata.com"/> and
                           <important>
                             <para>Watch the restrictions of the Free API Key in their pricing info!
                             </para>
                           </important>
                         </para>
-                      </listitem>
+                      </step>
 
-                      <listitem>
+                      <step>
                         <para>Export the key as <envar>TWELVEDATA_API_KEY</envar> environment variable before starting &appname;.
                         </para>
-                      </listitem>
-                    </orderedlist>
-                  </para>
+                      </step>
+                    </procedure>
+                  </important>
                 </entry>
               </row>
 
@@ -1022,25 +1026,24 @@
                 </entry>
 
                 <entry>
-                  <para>You need to
-                    <orderedlist spacing="compact">
-                      <listitem>
-                        <para>register at <ulink url="https://financeapi.net"/> and
+                  <important>
+                    <title>API Key Required</title>
+                    <procedure>
+                      <step>
+                        <para>Register at <ulink url="https://financeapi.net"/> and
                           <important>
                             <para>Watch the restrictions of the Free API Key in their pricing info!
                             </para>
                           </important>
                         </para>
-                      </listitem>
+                      </step>
 
-                      <listitem>
-                        <para>store the key which you got there in &mc.ed.pref; <xref linkend="prefs-online-quotes" />.
+                      <step>
+                        <para>Store the key which you got there in &mc.ed.pref; <xref linkend="prefs-online-quotes" />.
                         </para>
-                      </listitem>
-                    </orderedlist>
-                  </para>
-                  <para>
-                  </para>
+                      </step>
+                    </procedure>
+                  </important>
                 </entry>
               </row>
 
