@@ -63,7 +63,7 @@
     </para>
 
     <sect2 id="fq-currencies">
-      <title>Finance::Quote Sources - Currency source</title>
+      <title>Finance::Quote Sources - Currency Source</title>
 
       <table frame="topbot" id="gnc-tbl-fq-currency-source">
         <title>Currency source for Finance::Quote</title>
