@@ -1655,73 +1655,73 @@
             <tbody>
               <row>
                 <entry>
-                  Australia (ASX, ...)
+                  Australia (ASX)
                 </entry>
               </row>
 
               <row>
                 <entry>
-                  Canada (AlphaVantage, TMX, ...)
+                  Canada (AlphaVantage, TMX)
                 </entry>
               </row>
 
               <row>
                 <entry>
-                  Dutch (AEX, ...)
+                  Dutch (AEX)
                 </entry>
               </row>
 
               <row>
                 <entry>
-                  Europe (ASEGR, Bourso, BVB, Consorsbank, Sinvestor, Stooq, Tradegate, XETRA, ...)
+                  Europe (ASEGR, Bourso, BVB, Consorsbank, Sinvestor, Stooq, Tradegate, XETRA)
                 </entry>
               </row>
 
               <row>
                 <entry>
-                  France (Bourso, ...)
+                  France (Bourso)
                 </entry>
               </row>
 
               <row>
                 <entry>
-                  Greece (ASEGR, ...)
+                  Greece (ASEGR)
                 </entry>
               </row>
 
               <row>
                 <entry>
-                  India Mutual (AMFI, ...)
+                  India Mutual (AMFI)
                 </entry>
               </row>
 
               <row>
                 <entry>
-                  Nasdaq (AlphaVantage, FinanceAPI, Fool, GoogleWeb, IEXCloud, MarketWatch, StockData, YahooJSON, ...)
+                  Nasdaq (AlphaVantage, FinanceAPI, Fool, GoogleWeb, IEXCloud, MarketWatch, StockData, YahooJSON)
                 </entry>
               </row>
 
               <row>
                 <entry>
-                  NYSE (AlphaVantage, FinanceAPI, Fool, GoogleWeb, IEXCloud, MarketWatch, StockData, YahooJSON, ...)
+                  NYSE (AlphaVantage, FinanceAPI, Fool, GoogleWeb, IEXCloud, MarketWatch, StockData, YahooJSON)
                 </entry>
               </row>
 
               <row>
                 <entry>
-                  Poland (Stooq, ...)
+                  Poland (Stooq)
                 </entry>
               </row>
 
               <row>
                 <entry>
-                  Romania (BVB, ...)
+                  Romania (BVB)
                 </entry>
               </row>
 
               <row>
                 <entry>
-                  South Africa (Sharenet, ...)
+                  South Africa (Sharenet)
                 </entry>
               </row>
 
@@ -1733,13 +1733,13 @@
 
               <row>
                 <entry>
-                  U.K. Funds (FTfunds, MorningStarUK, ...)
+                  U.K. Funds (FTfunds, MorningStarUK)
                 </entry>
               </row>
 
               <row>
                 <entry>
-                  USA (AlphaVantage, FinanceAPI, Fool, IEXCloud, YahooJSON, ...)
+                  USA (AlphaVantage, FinanceAPI, Fool, IEXCloud, YahooJSON)
                 </entry>
               </row>
             </tbody>
