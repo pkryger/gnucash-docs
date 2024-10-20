@@ -51,7 +51,7 @@
 
     <para>If a particular source is the only place where the quote can be obtained but it's been failing or is obsolete,
     please reach out to <application>Finance::Quote</application> maintainers at
-    <ulink url="https://github.com/finance-quote/finance-quote"/>.
+    <ulink url="&url-fq;"/>.
     </para>
   </abstract>
 

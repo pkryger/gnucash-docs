@@ -166,6 +166,7 @@ https://www.w3.org/2003/entities/2007/w3centities-f.ent
 <!ENTITY url-ap-dev "https://developer.apple.com/">
 <!ENTITY url-cpan "https://www.cpan.org/">  <!-- Comprehensive Perl Archive Network -->
 <!ENTITY url-fints "https://www.hbci-zka.de/">
+<!ENTITY url-fq "https://github.com/finance-quote/finance-quote">
 <!ENTITY url-fsf "https://www.fsf.org/">
 <!ENTITY url-gh "https://github.com/"> <!-- we want to reference our libs, too.  -->
 <!ENTITY url-gh-we "&url-gh;Gnucash/"> <!-- Our project page -->
@@ -181,7 +182,7 @@ https://www.w3.org/2003/entities/2007/w3centities-f.ent
 <!ENTITY url-lw-de "https://linuxwiki.de/"> <!-- Append the desired topic -->
 <!ENTITY url-mysql "https://www.mysql.com/">
 <!ENTITY url-ofx "https://financialdataexchange.org//ofx"> <!-- Redirect of www.ofx.net -->
-<!ENTITY url-openhbci "https://openhbci.sourceforge.net/"> 
+<!ENTITY url-openhbci "https://openhbci.sourceforge.net/">
 <!ENTITY url-pgsql "https://www.postgresql.org/">
 <!ENTITY url-repo "https://repology.org/project/"> <!-- The packaging hub, append the desired project -->
 <!ENTITY url-saxon "https://saxon.sourceforge.net/"> <!-- XSLT and XQuery processor @ sourceforge -->
@@ -195,6 +196,7 @@ https://www.w3.org/2003/entities/2007/w3centities-f.ent
 <!-- Fixme: In April 2012, the XML project was retired
   For more information, please explore the Attic [http://attic.apache.org/]. -->
 <!ENTITY url-xalan "https://xml.apache.org/"> <!-- XSLT and XQuery processor @ apache -->
+<!ENTITY url-fq "https://github.com/finance-quote/finance-quote">
 <!ENTITY url-yh-fin "https://finance.yahoo.com/">  <!-- Append the desired topic -->
 <!ENTITY url-yh-hlp "https://help.yahoo.com/">  <!-- Append the desired topic -->
 
