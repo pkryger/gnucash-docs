@@ -38,15 +38,13 @@
       nature of gathering finance quotes (web scrapping, unstable API) the list of quote sources is constantly evolving.
     </para>
 
-    <para>Some modules are considered Active, that means it should be possible to fetch quotes using them. Please
-    see <link linkend='fq-active-sources-single'>Active Individual Quote Sources</link>
-    and <link linkend='fq-active-sources-multiple'>Active Multiple Quote Sources</link> for detailed lists.
+    <para>Some modules are considered Active, that means it should be possible to fetch quotes using them. Please see
+    <xref linkend='fq-active-sources-single'/> and <xref linkend='fq-active-sources-multiple'/> for detailed lists.
     </para>
 
     <para>Some sources may be considered obsolete that means that support for them has been removed (or is being
-    removed), or they are not functioning correctly. Please see <link linkend='fq-obsolete-sources-single'>Obsolete
-    Single Quote Sources</link> and <link linkend='fq-obsolete-sources-multiple'>Obsolete Multiple Quote Sources</link>
-    for detailed list.
+    removed), or they are not functioning correctly. Please see <xref linkend='fq-obsolete-sources-single'/> and <xref
+    linkend='fq-obsolete-sources-multiple'/> for detailed list.
     </para>
 
     <para>If a particular source is the only place where the quote can be obtained but it's been failing or is obsolete,
