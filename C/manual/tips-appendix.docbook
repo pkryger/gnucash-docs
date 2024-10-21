@@ -57,7 +57,7 @@
     <title>Finance::Quote Sources</title>
 
     <para>There are 3 types of sources of which the first - currency - is hardcoded and responsible to fetch
-      ISO currencies. The other two can be selected in the security editor.
+      ISO currencies. The other two can be selected in the <xref linkend="tool-security-edit"/>.
     </para>
 
     <sect2 id="fq-currencies">
